@@ -1,10 +1,10 @@
 var http = require('http');    //nodemon server.js : pour eviter l'activation du serveur a chaque modification
-var url = require('url');               //npm init npm install events     "dev": "node index.js"
-var querystring = require('querystring');
+var url = require('url');               //npm init //npm install events     "dev": "node index.js"  //npm init -y
+var querystring = require('querystring');  //npm i -g nodemon //npm i -g express-generator //express --version //express Name Folder
 
 var server = http.createServer(function (req, res) {
    var params = querystring.parse(url.parse(req.url).query);
-    var page = url.parse(req.url).pathname;   
+    var page = url.parse(req.url).pathname;  
 
     res.writeHead(200, { "Content-Type": "text/html" });
     if('id' in params && 'login' in params) {

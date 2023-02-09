@@ -1,7 +1,7 @@
-{
+{  
   "name": "atelier-cr-ation-application-web-avec-javascript",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "server.js", 
   "scripts": {
     "start": "node server.js",
     "dev": "node index.js"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/AzizBenIsmail/Atelier-creation-application-web-avec-javascript.git"
   },
-  "author": "",
+  "author": "AzizBenIsmail",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AzizBenIsmail/Atelier-creation-application-web-avec-javascript/issues"
